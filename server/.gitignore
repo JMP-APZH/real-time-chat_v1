@@ -1,0 +1,10 @@
+# to prevent the .env from being pushed to GitHub, 
+# along with the node_modules folder
+
+.env
+node_modules
+
+# Missing:
+# How to Create a Schema and Table in HarperDB
+# How to Set Up HarperDB Environment Variables
+# Test Message - on HarperDB

@@ -27,11 +27,19 @@ const Home = ({ username, setUsername, room, setRoom, socket }) => {
             className={styles.input}
             onChange={(e) => setRoom(e.target.value)}
         >
+
           <option>-- Select Room --</option>
+          <option value='Room 1'>Room 1</option>
+          <option value='Room 2'>Room 2</option>
+          <option value='Room 3'>Room 3</option>
+          <option value='Room 4'>Room 4</option>
+
+          {/* <option>-- Select Room --</option>
           <option value='Room Phu Quoc'>Phu Quoc</option>
           <option value='Room Madrid'>Madrid</option>
           <option value='Room Budapest'>Budapest</option>
-          <option value='Room Bern'>Bern</option>
+          <option value='Room Bern'>Bern</option> */}
+
         </select>
 
         <button 
