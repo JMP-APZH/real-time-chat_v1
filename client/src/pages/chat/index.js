@@ -6,7 +6,6 @@ import RoomAndUsersColumn from './room-and-users';
 const Chat = ({ username, room, socket }) => {
   return (
     <div className={styles.chatContainer}>
-      <div>
 
         <RoomAndUsersColumn 
             socket={socket} 
@@ -14,6 +13,8 @@ const Chat = ({ username, room, socket }) => {
             room={room} 
         />
 
+      <div>
+      
         <MessagesReceived 
             socket={socket} 
         />
